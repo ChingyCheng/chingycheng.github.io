@@ -13,7 +13,7 @@ I’m  Cheng (ChiEnn) Cheng, an AI researcher with a deep interest in Computatio
 
 Currently, I'm pursuing a Master of Science in Mathematics and Statistics at the Institute of Mathematical Sciences, University of Malaya. My academic journey involves extensive research in data analysis and biomathematics, particularly exploring the potential of deep learning in these fields. My early research includes significant work on earthquake data during my sophomore year. For a more detailed overview of my work, please visit my [Research page](/_pages/research.md)
 
-**I am actively seeking PhD positions for Fall 2025 or Spring 2026 intake.** If my research interests align with yours, or if you have opportunities that fit my background, I would love to connect! 
+**I am actively seeking PhD positions for Spring 2026 or  Fall 2026 intake.** If my research interests align with yours, or if you have opportunities that fit my background, I would love to connect! 
 
 If you have any questions, please feel free to [reach out](mailto:cheng.cheng@um.edu.my) to me. I believe communication is the foundation of academic progress.
 ## Recent News
