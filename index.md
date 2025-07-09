@@ -18,6 +18,7 @@ Currently, I'm pursuing a Master of Science in Mathematics and Statistics at the
 If you have any questions, please feel free to [reach out](mailto:cheng.cheng@um.edu.my) to me. I believe communication is the foundation of academic progress.
 ## Recent News
 last updated: Feb 10th, 2025
+- The research project I participated [Dynamic analysis and optimal control of a fractional-order epidemic model with nucleic acid detection and individual protective awareness: A Malaysian case study ](https://www.aimspress.com/journal/Math)  has been accepted on the **AIMS Mathematics**.
 
 - The research project I led during my master’s program, [Leveraging dynamics informed neural networks for predictive modeling of COVID-19 spread: A hybrid SEIRV-DNNs approach](https://www.nature.com/articles/s41598-025-85440-1), has been published in the **Scientific Reports**.
 
