@@ -27,18 +27,16 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        working-directory: chingycheng.github.io
-        run: npm install
+        run: npm ci
 
       - name: Build portfolio
-        working-directory: chingycheng.github.io
         run: npm run build
 
       - name: Prepare Pages artifact
         run: |
           rm -rf _site
           mkdir -p _site
-          cp -R chingycheng.github.io/dist/* _site/
+          cp -R dist/* _site/
           touch _site/.nojekyll
 
       - name: Upload artifact
