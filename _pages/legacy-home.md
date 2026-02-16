@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "Legacy Home"
 layout: splash
-permalink: /
+permalink: /legacy/
 ---
 
 <link rel="stylesheet" href="/assets/css/styles.css">

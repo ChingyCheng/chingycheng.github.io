@@ -20,7 +20,7 @@ title                    : 'Cheng (ChiEnn) Cheng'
 title_separator          : "-"
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : 'ChiEnn Cheng'
-description              : "I am a master student  ."
+description              : "Incoming PhD student at IUB. Research in infectious disease modelling and computational epidemiology."
 url                      : 'https://chingycheng.github.io' # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : '/' # the subpath of your site, e.g. "/blog"
 repository               : 'zhouzypaul/zhouzypaul.github.io' # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,8 +106,8 @@ analytics:
 author:
   name             : 'Cheng (ChiEnn) Cheng'
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a senior at Yuncheng University studying Math and Applied Math . I do research in Biomathematics."
-  location         : "Biomathematics"
+  bio              : "Incoming PhD student at IUB. I work on infectious disease modelling and computational epidemiology."
+  location         : "Indiana University Bloomington (IUB)"
   email            :
   links:
     - label: "Email"

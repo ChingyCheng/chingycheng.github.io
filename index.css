@@ -1,0 +1,16 @@
+/* Minimal CSS for small animations & polishing (kept intentionally simple). */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 240ms ease-out both;
+}
+
+/* Improve tap targets a bit on mobile */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
