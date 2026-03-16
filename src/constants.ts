@@ -49,7 +49,7 @@ export const EXPERIENCE: Experience[] = [
     role: "Research Assistant (Remote Internship)",
     institution: "Comp Epi DVRN",
     year: "Dec 2024 - Present",
-    description: "Participating in the “Plan B” project, conducting research on soical media.",
+    description: "Participating in the “Plan B” project, conducting research on social media.",
     tags: ["Infectious Disease Modeling", "Deep Learning"]
   },
   {
