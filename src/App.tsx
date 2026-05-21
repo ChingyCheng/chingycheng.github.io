@@ -242,9 +242,20 @@ const App: React.FC = () => {
                 <div className="text-slate-500 text-sm italic">
                   {highlightAuthor(pub.authors)}
                 </div>
-                <p className="text-slate-600 text-sm leading-relaxed">
-                  {pub.abstract}
-                </p>
+                {pub.highlights?.length ? (
+                  <ul className="space-y-2 text-slate-600 text-sm leading-relaxed">
+                    {pub.highlights.map((highlight, hIdx) => (
+                      <li key={hIdx} className="flex gap-2">
+                        <span className="mt-[0.45rem] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-academic-500" />
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : pub.abstract ? (
+                  <p className="text-slate-600 text-sm leading-relaxed">
+                    {pub.abstract}
+                  </p>
+                ) : null}
               </div>
               <div className="flex-shrink-0 flex flex-col justify-start pt-2">
                  {pub.link && (

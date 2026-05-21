@@ -11,7 +11,8 @@ export interface Publication {
   journal: string;
   year: number;
   link?: string;
-  abstract: string;
+  abstract?: string;
+  highlights?: string[];
   tags?: string[];
 }
 
