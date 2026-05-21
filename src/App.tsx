@@ -1,20 +1,17 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { 
-  BookOpen, 
   GraduationCap, 
   Mail, 
   Menu, 
   X, 
   Github, 
   Linkedin, 
-  ChevronRight,
   FileText,
-  Activity,
-  Cpu,
-  BarChart2,
+  ChartNetwork,
+  Dna,
+  HeartPulse,
   Briefcase,
   ExternalLink,
-  Globe
 } from 'lucide-react';
 import { PROFILE, EDUCATION, RESEARCH_INTERESTS, PUBLICATIONS, EXPERIENCE } from './constants';
 import { Section } from './types';
@@ -49,9 +46,9 @@ const App: React.FC = () => {
   // Helper to resolve icon string to component
   const getIcon = (iconName: string) => {
     switch (iconName) {
-      case 'Cpu': return <Cpu size={24} />;
-      case 'BarChart2': return <BarChart2 size={24} />;
-      default: return <Activity size={24} />;
+      case 'Dna': return <Dna size={24} />;
+      case 'ChartNetwork': return <ChartNetwork size={24} />;
+      default: return <HeartPulse size={24} />;
     }
   };
 
@@ -131,7 +128,7 @@ const App: React.FC = () => {
           <div className="flex items-center justify-center md:justify-start gap-4 pt-4">
             <button 
               onClick={() => setActiveSection(Section.RESEARCH)}
-              className="px-6 py-3 bg-academic-700 text-white rounded-lg font-medium hover:bg-academic-800 transition-colors shadow-sm"
+              className="px-6 py-3 bg-academic-500 text-white rounded-lg font-medium hover:bg-academic-600 transition-colors shadow-sm shadow-academic-200/70"
             >
               View Research
             </button>
@@ -140,18 +137,33 @@ const App: React.FC = () => {
                 href={`https://${PROFILE.googleScholar}`} 
                 target="_blank"
                 rel="noreferrer"
-                className="p-3 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-all"
+                className="p-3 text-slate-500 hover:text-academic-700 hover:bg-academic-50 rounded-lg transition-all"
                 title="Google Scholar"
               >
                 <GraduationCap size={20} />
               </a>
-              <a href={`https://${PROFILE.github}`} className="p-3 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-all">
+              <a
+                href={`https://${PROFILE.github}`}
+                className="p-3 text-slate-500 hover:text-academic-700 hover:bg-academic-50 rounded-lg transition-all"
+                title="GitHub"
+                aria-label="GitHub"
+              >
                 <Github size={20} />
               </a>
-              <a href={`https://${PROFILE.linkedin}`} className="p-3 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-all">
+              <a
+                href={`https://${PROFILE.linkedin}`}
+                className="p-3 text-slate-500 hover:text-academic-700 hover:bg-academic-50 rounded-lg transition-all"
+                title="LinkedIn"
+                aria-label="LinkedIn"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href={`mailto:${PROFILE.email}`} className="p-3 text-slate-500 hover:text-slate-900 hover:bg-slate-100 rounded-lg transition-all">
+              <a
+                href={`mailto:${PROFILE.email}`}
+                className="p-3 text-slate-500 hover:text-academic-700 hover:bg-academic-50 rounded-lg transition-all"
+                title="Email"
+                aria-label="Email"
+              >
                 <Mail size={20} />
               </a>
             </div>
@@ -161,7 +173,7 @@ const App: React.FC = () => {
           <img 
             src="/images/profile.JPG" 
             alt="Profile" 
-            className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg relative z-10"
+            className="w-full h-full object-cover rounded-full border-4 border-white ring-1 ring-academic-200 shadow-lg shadow-academic-100/70 relative z-10"
           />
         </div>
       </section>
@@ -198,8 +210,8 @@ const App: React.FC = () => {
 
       <div className="grid md:grid-cols-3 gap-6">
         {RESEARCH_INTERESTS.map((interest, idx) => (
-          <div key={idx} className="bg-white p-6 rounded-xl border border-academic-200 hover:border-academic-300 hover:shadow-md transition-all group">
-            <div className="w-12 h-12 bg-academic-50 text-academic-600 rounded-lg flex items-center justify-center mb-4 group-hover:bg-academic-600 group-hover:text-white transition-colors">
+          <div key={idx} className="bg-white p-6 rounded-lg border border-academic-100 hover:border-academic-300 hover:shadow-md hover:shadow-academic-100/70 transition-all group">
+            <div className="w-12 h-12 bg-academic-50 text-academic-600 rounded-lg border border-academic-100 flex items-center justify-center mb-4 group-hover:bg-academic-500 group-hover:border-academic-500 group-hover:text-white transition-colors">
               {getIcon(interest.icon)}
             </div>
             <h3 className="text-lg font-bold text-slate-900 mb-2">{interest.title}</h3>
@@ -214,11 +226,11 @@ const App: React.FC = () => {
         <h3 className="text-2xl font-serif font-bold text-slate-900">Publications</h3>
         <div className="grid gap-6">
           {PUBLICATIONS.map((pub, idx) => (
-            <div key={idx} className="flex flex-col md:flex-row gap-6 p-6 bg-white rounded-xl border border-academic-200 shadow-sm hover:border-academic-300 transition-all">
+            <div key={idx} className="flex flex-col md:flex-row gap-6 p-6 bg-white rounded-lg border border-academic-100 shadow-sm hover:border-academic-300 hover:shadow-academic-100/70 transition-all">
               <div className="flex-1 space-y-3">
                 <div className="flex flex-wrap gap-2 mb-2">
                   {pub.tags?.map((tag, tIdx) => (
-                    <span key={tIdx} className="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md font-medium">
+                    <span key={tIdx} className="px-2 py-1 bg-academic-50 text-academic-700 border border-academic-100 text-xs rounded-md font-medium">
                       {tag}
                     </span>
                   ))}
@@ -240,7 +252,7 @@ const App: React.FC = () => {
                      href={pub.link}
                      target="_blank"
                      rel="noreferrer"
-                     className="px-4 py-2 text-sm font-medium text-white bg-slate-900 rounded hover:bg-slate-800 transition-colors inline-flex items-center gap-2 justify-center"
+                     className="px-4 py-2 text-sm font-medium text-white bg-academic-600 rounded hover:bg-academic-700 transition-colors inline-flex items-center gap-2 justify-center"
                    >
                      View Paper <ExternalLink size={14}/>
                    </a>
@@ -328,7 +340,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-transparent flex flex-col font-sans">
       {/* Header */}
-      <header className="fixed top-0 w-full bg-white border-b border-slate-200 z-50">
+      <header className="fixed top-0 w-full bg-white/95 backdrop-blur border-b border-academic-100 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div 
             className="text-xl font-serif font-bold text-slate-900 cursor-pointer"
@@ -345,6 +357,7 @@ const App: React.FC = () => {
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 text-slate-600 hover:text-slate-900"
+              aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -367,7 +380,7 @@ const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-200 py-8">
+      <footer className="bg-white border-t border-academic-100 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-slate-500 text-sm">
             &copy; {new Date().getFullYear()} {PROFILE.name}. All rights reserved.

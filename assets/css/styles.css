@@ -3,7 +3,7 @@
 
 :root{
 	--primary-color:#111827;       /* near-black */
-	--secondary-color:#1e40af;     /* academic blue */
+	--secondary-color:#39757d;     /* academic teal */
 	--muted-color:#6b7280;         /* gray */
 	--surface-color:#ffffff;
 	--surface-muted:#f9fafb;
@@ -51,9 +51,9 @@ a:hover{
 	gap:.4rem .5rem;
 }
 .skill{
-	background:#eef2ff;
-	border:1px solid #c7d2fe;
-	color:#1e3a8a;
+	background:#eff7f8;
+	border:1px solid #bce0e4;
+	color:#315f65;
 	font-size:12px;
 	font-weight:600;
 	padding:2px 10px;

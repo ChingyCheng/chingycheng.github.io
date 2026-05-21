@@ -22,7 +22,7 @@ export const EDUCATION: Education[] = [
     details: []
   },
   {
-    degree: "Master of Science (Mathematics)",
+    degree: "Master of Science (Mathematics and Statistics)",
     institution: "University of Malaya",
     year: "Feb 2024 - Oct 2025",
     details: [
@@ -79,17 +79,17 @@ export const RESEARCH_INTERESTS: ResearchInterest[] = [
   {
     title: "Mathematical Biology",
     description: "",
-    icon: "Cpu"
+    icon: "Dna"
   },
   {
     title: "Infectious Disease Modeling",
     description: "",
-    icon: "Activity"
+    icon: "HeartPulse"
   },
   {
     title: "Computational Epidemiology",
     description: "",
-    icon: "BarChart2"
+    icon: "ChartNetwork"
   }
 ];
 
