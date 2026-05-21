@@ -77,7 +77,7 @@ export const EXPERIENCE: Experience[] = [
 
 export const RESEARCH_INTERESTS: ResearchInterest[] = [
   {
-    title: "Machine Learning",
+    title: "Mathematical Biology",
     description: "",
     icon: "Cpu"
   },
@@ -94,6 +94,15 @@ export const RESEARCH_INTERESTS: ResearchInterest[] = [
 ];
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    title: "The dynamics of hepatitis B transmission with treatment and vaccination: A case study in the Ili Region of Xinjiang, China, by a physics-informed neural networks approach",
+    authors: "Xiaomei Feng, Yuan Chen, Cheng Cheng, Lei Wang",
+    journal: "Mathematical Biosciences",
+    year: 2026,
+    abstract: "Hepatitis B virus (HBV) infection remains a leading cause of cirrhosis and hepatocellular carcinoma worldwide, and long-term control relies on sustained immunization and effective reduction of transmission. In high-burden settings, vaccination programs have expanded substantially, but there still exist differences in the immune response effect after vaccination and the phenomenon of post-vaccination immunity decline. In this paper, we propose a model incorporating the vaccination of newborns and susceptible and imperfect vaccination, and study how the two factors affect the transmission dynamics of hepatitis B. In term of the dynamical theory, we derive the basic reproduction number R0, discuss local stability of the disease-free equilibrium when R0 < 1, characterize the existence of multi endemic equilibria when R0 < 1 and the possibility of backward bifurcation, and prove the local and global stability of the unique endemic equilibrium under some conditions. In term of data fitting, according to the annual reported cases from 2008 to 2021 in Ili Kazak Autonomous Prefecture, Xinjiang, China, R0 is estimated to be approximately 2.14 by Markov Chain Monte Carlo (MCMC) method. Moreover, in view of the significant advantages of Physics-Informed Neural Networks (PINNs) in handling sparse data and in the universal approximation capability, the model coupled with a physics-informed neural network could be applied to infer time-varying transmission, the vaccination rate and the effective reproduction number Re(t). By comparing the goodness of fit of these two methods, it is found that PINNs has a better agreement in matching with the data than MCMC. In addition, from numerical simulations we found that even though the number of new reported cases is decreasing, the number of carriers is increasing. Therefore, it confirms that the detection of occult infections among carriers and antiviral treatment are of great importance in the prevention and control of hepatitis B. Finally, we propose that based on the current situation, carrying out a one-year booster vaccination campaign among susceptible populations could further reduce the number of new infections by up to 13% in the short term.",
+    link: "https://doi.org/10.1016/j.mbs.2026.109712",
+    tags: ["Hepatitis B", "PINNs", "Vaccination"]
+  },
   {
     title: "Dynamic analysis and optimal control of a fractional-order epidemic model with nucleic acid detection and individual protective awareness: A Malaysian case study",
     authors: "Rui Hu, Elayaraja Aruchunan, Muhamad Hifzhudin Noor Aziz, Cheng Cheng, Benchawan Wiwatanapataphee",

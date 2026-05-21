@@ -29,6 +29,28 @@ permalink: /research/
   <h2>Publications</h2>
   <h3>Journal</h3>
 
+  <!-- Mathematical Biosciences -->
+  <div class="publication-card no-image">
+    <div class="publication-image"></div>
+    <div class="publication-content">
+      <div class="publication-title">
+        The dynamics of hepatitis B transmission with treatment and vaccination: A case study in the Ili Region of Xinjiang, China, by a physics-informed neural networks approach
+      </div>
+      <div class="skills">
+        <span class="skill">Hepatitis B</span>
+        <span class="skill">PINNs</span>
+        <span class="skill">Vaccination</span>
+      </div>
+      <div class="publication-authors">
+        Xiaomei Feng, Yuan Chen, <strong>Cheng Cheng</strong>, Lei Wang
+      </div>
+      <div class="publication-venue">Mathematical Biosciences, 2026</div>
+      <div class="publication-links">
+        <a href="https://doi.org/10.1016/j.mbs.2026.109712" target="_blank" rel="noopener noreferrer">Paper</a>
+      </div>
+    </div>
+  </div>
+
   <!-- AIMS Mathematics (accepted) -->
   <div class="publication-card no-image">
     <div class="publication-image"></div>
