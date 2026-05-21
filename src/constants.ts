@@ -99,12 +99,7 @@ export const PUBLICATIONS: Publication[] = [
     authors: "Xiaomei Feng, Yuan Chen, Cheng Cheng, Lei Wang",
     journal: "Mathematical Biosciences",
     year: 2026,
-    highlights: [
-      "Incompletely effective vaccination and immune waning are considered in dynamical model.",
-      "Backward bifurcations are theoretically analyzed.",
-      "The mechanistic SICV model is embed in a physics-informed neural network.",
-      "The transmission rate and vaccination rate are inferred using PINNs."
-    ],
+    abstract: "Developed a hepatitis B transmission model with incompletely effective vaccination and immune waning; analyzed backward bifurcation dynamics and embedded the mechanistic SICV model in a physics-informed neural network to infer transmission and vaccination rates.",
     link: "https://doi.org/10.1016/j.mbs.2026.109712",
     tags: ["Hepatitis B", "PINNs", "Vaccination"]
   },
