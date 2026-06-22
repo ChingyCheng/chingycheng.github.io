@@ -6,7 +6,7 @@ export const PROFILE = {
   tagline: "Infectious disease modelling • Computational epidemiology",
   // Affiliation removed from here as requested for Home page, moved to Experience
   affiliation: "", 
-  email: "chingycheng@foxmail.com",
+  email: "chingycheng327@gmail.com",
   location: "Indiana University Bloomington (IUB)",
   googleScholar: "scholar.google.com/citations?user=-_xoqYAAAAAJ&hl=en&authuser=2",
   github: "github.com/ChingyCheng",
