@@ -18,7 +18,7 @@ permalink: /
       I work on learning-enhanced infectious disease models, combining data-driven methods with mechanistic epidemiological modeling.
     </p>
     <div class="social-links">
-      <a href="mailto:cheng.cheng@um.edu.my"><i class="fas fa-envelope"></i> Email</a>
+      <a href="mailto:chingycheng@foxmail.com"><i class="fas fa-envelope"></i> Email</a>
       <a href="https://scholar.google.com.my/citations?hl=en&user=-_xoqYAAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i> Scholar</a>
       <a href="https://github.com/ChingyCheng" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
       <a href="https://twitter.com/YuxiCheng2" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i> Twitter</a>
@@ -35,7 +35,7 @@ permalink: /
     Previously, I completed an M.Sc. in Mathematics &amp; Statistics at the Institute of Mathematical Sciences, University of Malaya.
     For a detailed overview of my work, please see my <a href="/research/">Research</a> page.
   </p>
-  <p>If you’d like to connect, email me at <a href="mailto:cheng.cheng@um.edu.my">cheng.cheng@um.edu.my</a>.</p>
+  <p>If you’d like to connect, email me at <a href="mailto:chingycheng@foxmail.com">chingycheng@foxmail.com</a>.</p>
 </div>
 
 <div class="content-section">
