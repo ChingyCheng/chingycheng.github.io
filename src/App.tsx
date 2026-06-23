@@ -27,14 +27,14 @@ const App: React.FC = () => {
     if (!container) return;
 
     // Prevent duplicate scripts when navigating back to Home.
-    if (container.querySelector('script#clustrmaps')) return;
+    if (container.querySelector('script#mapmyvisitors')) return;
 
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.id = 'clustrmaps';
+    script.id = 'mapmyvisitors';
     script.async = true;
     // Force https to avoid mixed-content issues on GitHub Pages.
-    script.src = 'https://clustrmaps.com/map_v2.js?d=y7YKKBDBDzrWxDg4fySugE-ZaO_JhzcBsFQReXdpt3U&cl=ffffff&w=a';
+    script.src = 'https://mapmyvisitors.com/map.js?d=znMcQVUCwZZTlAPNpdPY4L7pMZM9mcTPgJqrYf6I3so&cl=ffffff&w=a';
     container.appendChild(script);
 
     return () => {
@@ -193,7 +193,7 @@ const App: React.FC = () => {
           <div ref={visitorsRef} style={{ minHeight: 220, minWidth: 260 }} />
         </div>
         <p className="text-xs text-slate-400">
-          Visitor map provided by ClustrMaps.
+          Visitor map provided by MapMyVisitors.
         </p>
       </section>
     </div>
